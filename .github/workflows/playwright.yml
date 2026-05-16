@@ -20,6 +20,7 @@ jobs:
         echo "BASE_URL=https://www.saucedemo.com/" >> .env
         echo "STANDARD_USER=standard_user" >> .env
         echo "PASSWORD=secret_sauce" >> .env
+        echo "LOCKED_OUT_USER=locked_out_user" >> .env
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run Playwright tests
