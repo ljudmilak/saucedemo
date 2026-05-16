@@ -54,6 +54,7 @@ Create a `.env` file:
 BASE_URL=https://www.saucedemo.com/
 STANDARD_USER=standard_user
 PASSWORD=secret_sauce
+LOCKED_OUT_USER=locked_out_user
 ```
 
 ## Run tests
