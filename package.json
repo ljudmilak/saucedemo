@@ -9,7 +9,6 @@
   "scripts": {},
   "dependencies": {
     "dotenv": "^17.4.2",
-    "faker": "^6.6.6",
     "typescript": "^6.0.3"
   },
   "devDependencies": {
